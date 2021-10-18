@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<title>latihan 3</title>
+
+<body>
+
+<audio controls>
+  <source src="video/HYMNE UDINUS.mp3" type="audio/mp3">
+</audio>
+
+<video>
+  <source src="video/HYMNE UDINUS.mp4" type="video/mp4">
+</video>
+
+<embed src="file:///C:/Users/ASUS/OneDrive/Documents/PERKULIAHAN/ProgWeb/Minggu%203-Praktikum.pdf">
+
+</body>
+</html>
