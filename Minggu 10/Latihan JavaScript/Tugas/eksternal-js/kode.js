@@ -1,0 +1,1 @@
+alert("Hello, ini adalah Latihan program JS eksternal!");
