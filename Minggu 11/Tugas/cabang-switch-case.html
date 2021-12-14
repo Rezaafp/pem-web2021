@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Latihan Percabangan switch/case</title>
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("Selamat anda beruntung!!! Silahakn pilih hadiah anda dengan memasukan angka 1 sampai 5");
+        var hadiah = "";
+        
+        switch(jawab){
+            case "1":
+                hadiah = "Motor";
+                break;
+            case "2":
+                hadiah = "Kulkas";
+                break;
+            case "3":
+                hadiah = "Kompor";
+                break;
+            case "4":
+                hadiah = "Oven";
+                break;
+            case "5":
+                hadiah = "Sepeda Lipat";
+                break;
+            default:
+                document.write("<p>Opps! anda salah pilih</p>");
+        }
+
+        if(hadiah === ""){
+            document.write("<p>Kamu gagal mendapat hadiah</p>");
+        } else {
+            document.write("<h2>Selamat kamu mendapatkan " + hadiah + "</h2>");
+        }
+    </script>
+</body>
+</html>
